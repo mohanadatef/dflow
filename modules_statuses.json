@@ -1,0 +1,9 @@
+{
+    "Acl": true,
+    "Basic": true,
+    "CoreData": true,
+    "Record": true,
+    "Setting": true,
+    "Material": true,
+    "Report": true
+}

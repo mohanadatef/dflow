@@ -1,0 +1,90 @@
+
+.video-input-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#video-input {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* hide control panel */
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    visibility: hidden;
+}
+
+.player-video-viewer {
+    width: 100%;
+}
+
+.player:hover .player-controls {
+transform: translateY(0);
+
+}
+
+#progress-bar {
+grid-column: span 7;
+width: 100%;
+height: 2rem;
+background-color: transparent;
+margin-top: 0;
+}
+
+#progress-bar::-moz-range-thumb {
+background-color: #3c415e;
+border: none;
+border-radius: 0;
+height: 2.2rem;
+width: 0.5rem;
+}
+
+#progress-bar::-moz-range-progress {
+background-color: #7c83ab;
+height: 2rem;
+}
+
+
+.player-slider {
+height: 0.3rem;
+background-color: #738598;
+margin-top: 1.5rem;
+}
+
+.player-slider::-moz-range-progress {
+background-color: #7c83ab;
+width: 0.5rem;
+}
+
+.player-slider::-moz-range-thumb {
+background-color: #3c415e;
+border: none;
+}
+
+.player-slider::-moz-focus-outer {
+border: 0;
+}
+
+input[name="volume"] {
+margin-right: 1rem;
+}
+
+button::-moz-focus-inner { border: 0; }
+
+button {
+border: none;
+background-color: transparent;
+height: 3rem;
+color: black;
+}

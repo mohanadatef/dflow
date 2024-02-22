@@ -1,0 +1,31 @@
+<!--begin::Footer-->
+<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+    <!--begin::Container-->
+    <div class="container-xxl d-flex flex-column flex-md-row flex-stack">
+        <!--begin::Copyright-->
+        @if(in_array(user()->role_id,[1,10]))
+        <div class="text-dark order-2 order-md-1" style="pointer-events: none;">
+            <span class="text-gray-400 fw-semibold me-1">Version</span>
+            <a href="#" class="text-muted text-hover-primary fw-semibold me-2 fs-6">3.15.6</a>
+        </div>
+
+        @endif
+        <!--end::Copyright-->
+        <!--begin::Menu-->
+        {{--<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+            <li class="menu-item">
+                <a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
+            </li>
+            <li class="menu-item">
+                <a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
+            </li>
+            <li class="menu-item">
+                <a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
+            </li>
+        </ul>--}}
+        <!--end::Menu-->
+    </div>
+    <!--end::Container-->
+</div>
+
+<!--end::Footer-->
